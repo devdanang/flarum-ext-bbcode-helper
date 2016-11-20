@@ -1,0 +1,32 @@
+{
+    "name": "devdanang/flarum-ext-bbcode-helper",
+    "title": "BBCode Helper",
+    "type": "flarum-extension",
+    "description": "BBCode Helper for easy input the BBcode without memorizing everything",
+    "keywords": ["bbcode", "helper"],
+    "author": {
+        "name": "Truong Vo",
+        "email": "vochitruong@gmail.com",
+        "homepage": ""
+    },
+    "license": "MIT",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "BBCodeHelper\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        },
+        "flarum-extension": {
+            "title": "BBCode Helper",
+            "icon": {
+                "name": "bold",
+                "backgroundColor": "#a90329",
+                "color": "#fff"
+            }
+        }
+    }
+}
